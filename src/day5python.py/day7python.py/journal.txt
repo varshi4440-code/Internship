@@ -1,0 +1,3 @@
+Name: dora, Goal: dancing
+Name: bujji, Goal: singing
+Name: renu, Goal: driving

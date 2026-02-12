@@ -1,0 +1,16 @@
+import csv
+
+# Open file in write mode
+with open("customer_orders.csv", mode="w", newline="") as file:
+    writer = csv.writer(file)
+    
+    # Write header
+    writer.writerow(["order_id", "customer_name", "amount", "quantity"])
+    
+    # Write rows
+    writer.writerow([101, "Asha", 2500, 2])
+    writer.writerow([102, "Ravi", 1800, 1])
+    writer.writerow([103, "Meena", 3200, 4])
+    writer.writerow([104, "Kiran", 2100, 3])
+
+print("CSV file created successfully!")
